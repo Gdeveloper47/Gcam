@@ -160,7 +160,7 @@ We (usually the docs team, but sometimes GitHub product managers, engineers, or 
 You should always review your own PR first.
 
 For content changes, make sure that you:
-- [ ] Confirm that the changes meet the user experience and goals outlined in the content design plan (if there is one).
+- [ ✓] Confirm that the changes meet the user experience and goals outlined in the content design plan (if there is one).
 - [ ] Compare your pull request's source changes to staging to confirm that the output matches the source and that everything is rendering as expected. This helps spot issues like typos, content that doesn't follow the style guide, or content that isn't rendering due to versioning problems. Remember that lists and tables can be tricky.
 - [ ] Review the content for technical accuracy.
 - [ ] Review the entire pull request using the [localization checklist](contributing/localization-checklist.md).
@@ -185,5 +185,5 @@ This site can be developed on Windows, however a few potential gotchas need to b
 1. Bash: Not every Windows developer has a terminal that fully supports Bash, so it's generally preferred to write [scripts](/script) in JavaScript instead of Bash.
 1. Filename too long error: There is a 260 character limit for a filename when Git is compiled with `msys`. While the suggestions below are not guaranteed to work and could possibly cause other issues, a few workarounds include:
     - Shorten the path by cloning this repo directly into `C:\`
-    - Use a different Git client on Windows
+    - Use a different Git client on Windowshadd pl
     - Update Git configuration: `git config --system core.longpaths true`
